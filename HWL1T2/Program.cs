@@ -1,0 +1,12 @@
+﻿Console.Write("Введите число А ");
+double numberA = double.Parse(Console.ReadLine());
+Console.Write("Введите число B ");
+double numberB = double.Parse(Console.ReadLine());
+Console.Write("Введите число C ");
+double numberC = double.Parse(Console.ReadLine());
+double max = numberA;
+if (numberA >= max) max = numberA;
+if (numberB >= max) max = numberB;
+if (numberC >= max) max = numberC;
+Console.Write("Max= ");
+Console.Write(max);
